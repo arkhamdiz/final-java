@@ -1,0 +1,20 @@
+{
+    "pasajes": [
+      {
+        "destino": "Nueva York",
+        "fecha": "2023-05-15",
+        "precio": 500
+      },
+      {
+        "destino": "París",
+        "fecha": "2023-06-20",
+        "precio": 700
+      },
+      {
+        "destino": "Tokio",
+        "fecha": "2023-07-10",
+        "precio": 900
+      }
+    ]
+  }
+  

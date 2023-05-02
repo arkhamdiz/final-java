@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compra de pasajes</title>
+    <script src="./assets/script.js"></script>
+</head>
+<body>
+    <h1>Compra de pasajes</h1>
+  
+    <form>
+      <label for="destino">Destino:</label>
+      <select id="destino" name="destino">
+        <option value="">Seleccionar</option>
+        <option value="Nueva York">Nueva York</option>
+        <option value="París">París</option>
+        <option value="Tokio">Tokio</option>
+      </select>
+      
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha" name="fecha">
+      
+      <button type="submit">Buscar pasajes</button>
+    </form>
+    
+    <div id="resultados"></div>
+    
+    
+</body>
+</html>
